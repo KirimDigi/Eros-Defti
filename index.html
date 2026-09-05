@@ -1983,21 +1983,21 @@
     </script>
     <link
       rel="icon"
-      href="kirimdigi.ico"
+      href="KirimDigi.ico"
       sizes="32x32"
     />
     <link
       rel="icon"
-      href="kirimdigi.ico"
+      href="KirimDigi.ico"
       sizes="192x192"
     />
     <link
       rel="apple-touch-icon"
-      href="kirimdigi.ico"
+      href="KirimDigi.ico"
     />
     <meta
       name="msapplication-TileImage"
-      content="kirimdigi.ico"
+      content="KirimDigi.ico"
     />
     <style id="wp-custom-css">
       body {
@@ -2583,7 +2583,12 @@
                             autoplay=""
                             muted=""
                             playsinline=""
-                          ></video>
+                            loop=""
+                            src="https://the.invisimple.id/wp-content/uploads/2025/10/03.-MANSION-GARDEN-15S.mp4"
+                            style="width: 100%; height: 100%; object-fit: cover;"
+                          >
+                            <source src="https://the.invisimple.id/wp-content/uploads/2025/10/03.-MANSION-GARDEN-15S.mp4" type="video/mp4" />
+                          </video>
                         </div>
                         <div
                           class="elementor-container elementor-column-gap-no"
@@ -4325,7 +4330,7 @@
                                           Berawal dari tempat pekerjaan
                                           Cianjur-2023, kami mengenal satu sama
                                           lain dan belum ada benih cinta kala
-                                          itu, hanya sebatas teman kerja. a
+                                          itu, hanya sebatas teman kerja.
                                         </div>
                                       </div>
                                     </div>
@@ -6290,9 +6295,9 @@
                                                     loading="lazy"
                                                     width="1080"
                                                     height="1080"
-                                                    src="kirimdigi.ico"
+                                                    src="KirimDigi.ico"
                                                     class="attachment-full size-full wp-image-181839"
-                                                    alt=""
+                                                    alt="KirimDigi Logo"
                                                   />
                                                 </div>
                                               </div>
@@ -7991,72 +7996,78 @@
                             var cover = document.getElementById("cover");
                             var btn_open = document.getElementById("btn_open");
                             let delaySection = 0;
-                            const isEditorActive =
-                              document.body.classList.contains(
-                                "elementor-editor-active",
-                              );
-                            document.addEventListener(
-                              "DOMContentLoaded",
-                              () => {
-                                document
-                                  .querySelector(
-                                    ".motionSection .elementor-background-video-container video",
-                                  )
-                                  .removeAttribute("autoplay");
-                                document.querySelector(
-                                  ".kolomPertama",
-                                ).style.display = "none";
-                                delaySection =
-                                  document.querySelector(".kolomPertama")
-                                    .dataset.delayTime;
-                              },
-                            );
-                            if (
-                              typeof elementorFrontendConfig === "undefined"
-                            ) {
-                              disableScrolling();
-                              document.body.style.height = "100vh";
-                              btn_open.onclick = function () {
-                                enableScrolling();
-                                closeCover();
-                                myFunction();
-                              };
-                            }
-                            function myFunction() {
-                              setTimeout(() => {
-                                document
-                                  .querySelector(
-                                    ".motionSection .elementor-background-video-container video",
-                                  )
-                                  .play();
-                              }, 100);
-                              setTimeout(() => {
-                                document.querySelector(
-                                  ".kolomPertama",
-                                ).style.display = "block";
-                              }, delaySection);
-                            }
+
                             function disableScrolling() {
                               var x = window.scrollX;
                               var y = window.scrollY;
                               window.onscroll = function () {
                                 window.scrollTo(x, y);
                               };
-                              jQuery("body").css("overflow", "hidden");
+                              if (window.jQuery) {
+                                jQuery("body").css("overflow", "hidden");
+                              } else {
+                                document.body.style.overflow = "hidden";
+                              }
                             }
+
                             function enableScrolling() {
                               window.onscroll = function () {};
-                              jQuery("body").css("overflow", "visible");
+                              if (window.jQuery) {
+                                jQuery("body").css("overflow", "visible");
+                              } else {
+                                document.body.style.overflow = "visible";
+                              }
+                              document.body.style.height = "auto";
                             }
+
                             function closeCover() {
-                              $("#cover").slideUp(1500, "easeInOutCubic");
+                              if (window.jQuery) {
+                                $("#cover").slideUp(1000);
+                              } else if (cover) {
+                                cover.style.display = "none";
+                              }
                             }
-                            function munculKolom() {
+
+                            function handleOpenInvitation(e) {
+                              if (e) e.preventDefault();
+                              enableScrolling();
+
+                              // Trigger audio play
+                              if (typeof window.audioActive === "function") {
+                                try { window.audioActive(); } catch (err) {}
+                              } else {
+                                var song = document.getElementById("song");
+                                if (song) { song.play().catch(function(){}); }
+                              }
+
+                              closeCover();
+
+                              // Anchor scroll to slideAwal section
                               setTimeout(function () {
-                                document.querySelector(
-                                  ".kolomPertama",
-                                ).style.display = "block";
-                              }, 14000);
+                                var target = document.getElementById("slideAwal");
+                                if (target) {
+                                  target.scrollIntoView({ behavior: "smooth", block: "start" });
+                                }
+                              }, 300);
+
+                              // Play background videos
+                              setTimeout(function () {
+                                var vids = document.querySelectorAll("video");
+                                vids.forEach(function (v) {
+                                  v.play().catch(function (err) { console.log(err); });
+                                });
+                              }, 200);
+                            }
+
+                            disableScrolling();
+                            document.body.style.height = "100vh";
+
+                            if (btn_open) {
+                              btn_open.onclick = handleOpenInvitation;
+                              var btnLink = btn_open.querySelector("a");
+                              if (btnLink) {
+                                btnLink.onclick = handleOpenInvitation;
+                              }
                             }
                           </script>
                         </div>
@@ -8310,7 +8321,11 @@
                     muted=""
                     playsinline=""
                     loop=""
-                  ></video>
+                    src="https://the.invisimple.id/wp-content/uploads/2024/10/Garden-03-Video-BG.mp4"
+                    style="width: 100%; height: 100%; object-fit: cover;"
+                  >
+                    <source src="https://the.invisimple.id/wp-content/uploads/2024/10/Garden-03-Video-BG.mp4" type="video/mp4" />
+                  </video>
                 </div>
                 <div class="elementor-container elementor-column-gap-no">
                   <div
