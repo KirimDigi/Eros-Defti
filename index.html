@@ -2000,6 +2000,15 @@
       content="KirimDigi.ico"
     />
     <style id="wp-custom-css">
+      .delayed-appear-box {
+        opacity: 0 !important;
+        visibility: hidden !important;
+        transition: opacity 1s ease-in-out, visibility 1s ease-in-out !important;
+      }
+      .delayed-appear-box.is-visible {
+        opacity: 1 !important;
+        visibility: visible !important;
+      }
       body {
         margin: 0 auto;
       }
@@ -2570,6 +2579,7 @@
                     >
                       <div class="elementor-background-overlay"></div>
                       <section
+                        id="couple-section-target"
                         class="elementor-section elementor-inner-section elementor-element elementor-element-5f8f911 elementor-section-full_width elementor-section-height-min-height elementor-section-content-middle motionSection elementor-section-height-default"
                         data-id="5f8f911"
                         data-element_type="section"
@@ -2611,7 +2621,7 @@
                                   class="elementor-container elementor-column-gap-no"
                                 >
                                   <div
-                                    class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-4e75036 kolomPertama"
+                                    class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-4e75036 kolomPertama delayed-appear-box"
                                     data-id="4e75036"
                                     data-element_type="column"
                                     data-e-type="column"
@@ -8045,11 +8055,11 @@
 
                               closeCover();
 
-                              // Anchor scroll to specific target heading
+                              // Anchor scroll to main section top
                               setTimeout(function () {
-                                var target = document.getElementById("couple-heading-target") || document.querySelector(".elementor-element-1e2198b");
+                                var target = document.getElementById("couple-section-target") || document.querySelector(".elementor-element-5f8f911");
                                 if (target) {
-                                  target.scrollIntoView({ behavior: "smooth", block: "center" });
+                                  target.scrollIntoView({ behavior: "smooth", block: "start" });
                                 }
                               }, 350);
 
@@ -8063,6 +8073,14 @@
                                   } catch (err) {}
                                 });
                               }, 200);
+
+                              // Reveal text and frame after 8 seconds
+                              setTimeout(function () {
+                                var delayedBoxes = document.querySelectorAll(".delayed-appear-box");
+                                delayedBoxes.forEach(function (box) {
+                                  box.classList.add("is-visible");
+                                });
+                              }, 8000);
                             }
 
                             disableScrolling();
