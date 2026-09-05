@@ -2580,10 +2580,8 @@
                           <video
                             class="elementor-background-video-hosted"
                             role="presentation"
-                            autoplay=""
                             muted=""
                             playsinline=""
-                            loop=""
                             src="https://the.invisimple.id/wp-content/uploads/2025/10/03.-MANSION-GARDEN-15S.mp4"
                             style="width: 100%; height: 100%; object-fit: cover;"
                           >
@@ -2670,6 +2668,7 @@
                                                   class="elementor-widget-container"
                                                 >
                                                   <h2
+                                                    id="couple-heading-target"
                                                     class="elementor-heading-title elementor-size-default"
                                                   >
                                                     Putri<br /><span
@@ -8046,19 +8045,22 @@
 
                               closeCover();
 
-                              // Anchor scroll to slideAwal section
+                              // Anchor scroll to specific target heading
                               setTimeout(function () {
-                                var target = document.getElementById("slideAwal");
+                                var target = document.getElementById("couple-heading-target") || document.querySelector(".elementor-element-1e2198b");
                                 if (target) {
-                                  target.scrollIntoView({ behavior: "smooth", block: "start" });
+                                  target.scrollIntoView({ behavior: "smooth", block: "center" });
                                 }
-                              }, 300);
+                              }, 350);
 
-                              // Play background videos
+                              // Play background motion video once starting from 0 (no loop)
                               setTimeout(function () {
                                 var vids = document.querySelectorAll("video");
                                 vids.forEach(function (v) {
-                                  v.play().catch(function (err) { console.log(err); });
+                                  try {
+                                    v.currentTime = 0;
+                                    v.play().catch(function (err) { console.log(err); });
+                                  } catch (err) {}
                                 });
                               }, 200);
                             }
@@ -8321,10 +8323,8 @@
                   <video
                     class="elementor-background-video-hosted"
                     role="presentation"
-                    autoplay=""
                     muted=""
                     playsinline=""
-                    loop=""
                     src="https://the.invisimple.id/wp-content/uploads/2024/10/Garden-03-Video-BG.mp4"
                     style="width: 100%; height: 100%; object-fit: cover;"
                   >
