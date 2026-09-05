@@ -2715,7 +2715,7 @@
                                       >
                                         <div class="elementor-widget-container">
                                           <script
-                                            src="../%40dotlottie/player-component%402.7.12/dist/dotlottie-player.mjs"
+                                            src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs"
                                             type="module"
                                           ></script>
                                           <dotlottie-player
@@ -7987,11 +7987,7 @@
                         data-widget_type="html.default"
                       >
                         <div class="elementor-widget-container">
-                          <script src="../ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-                          <script
-                            data-optimized="1"
-                            src="wp-content/litespeed/js/051a23887bb76a428f4cfc30f318f8cd.js?ver=8f8cd"
-                          ></script>
+                          <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
                           <script>
                             var cover = document.getElementById("cover");
                             var btn_open = document.getElementById("btn_open");
@@ -8021,10 +8017,18 @@
                             }
 
                             function closeCover() {
-                              if (window.jQuery) {
-                                $("#cover").slideUp(1000);
-                              } else if (cover) {
-                                cover.style.display = "none";
+                              if (window.jQuery && typeof window.jQuery === "function") {
+                                try {
+                                  $("#cover").slideUp(1000);
+                                  return;
+                                } catch (err) {}
+                              }
+                              if (cover) {
+                                cover.style.transition = "all 0.8s ease";
+                                cover.style.opacity = "0";
+                                setTimeout(function () {
+                                  cover.style.display = "none";
+                                }, 800);
                               }
                             }
 
@@ -10522,13 +10526,6 @@
         background-size: cover;
       }
     </style>
-    <script
-      type="module"
-      src="../beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495"
-      integrity="sha512-iIg7k2xntmwu6/uSb5tpc/hySgZc4eoL31yB29W6tJFo2akwjPWcEqnCEdJvGexCL0KEQwVYv5BlowfhVz26hg=="
-      data-cf-beacon='{"version":"2024.11.0","token":"5644578f3eb145d7b3bdc41fffbe5c1a","r":1,"spa":2}'
-      crossorigin="anonymous"
-    ></script>
   
 <script>
 (function() {
@@ -10541,7 +10538,7 @@
       }
     } catch(e) {}
     
-    # 2. Check URL hash (#to=... or #...&to=...)
+    // 2. Check URL hash (#to=... or #...&to=...)
     try {
       var hash = window.location.hash;
       if (hash && hash.indexOf('to=') !== -1) {
