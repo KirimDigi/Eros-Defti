@@ -1,0 +1,61 @@
+Created At: 2026-09-05T20:41:01+07:00
+Completed At: 2026-09-05T20:41:04+07:00
+
+				The command exited with code 0.
+				Output:
+				Matches count: 5
+Line 4589:
+">
+                          <script>
+                            var btn_gift = document.getElementById("btn_gift");
+                            var sec_gift = document.getElementById("sec_gift");
+                            btn_gift.onclick = function () {
+                              if (sec_gift.style.display === "block") {
+                                $("#sec_gift").slideUp(1500, "easeInOutCubic");
+                              } else {
+
+==================================================
+Line 4589:
+>
+                            var btn_gift = document.getElementById("btn_gift");
+                            var sec_gift = document.getElementById("sec_gift");
+                            btn_gift.onclick = function () {
+                              if (sec_gift.style.display === "block") {
+                                $("#sec_gift").slideUp(1500, "easeInOutCubic");
+                              } else {
+                                $("#
+==================================================
+Line 4591:
+   var sec_gift = document.getElementById("sec_gift");
+                            btn_gift.onclick = function () {
+                              if (sec_gift.style.display === "block") {
+                                $("#sec_gift").slideUp(1500, "easeInOutCubic");
+                              } else {
+                                $("#sec_gift").slideDown(
+                                  1500,
+                                  "easeInOutC
+==================================================
+Line 4592:
+         btn_gift.onclick = function () {
+                              if (sec_gift.style.display === "block") {
+                                $("#sec_gift").slideUp(1500, "easeInOutCubic");
+                              } else {
+                                $("#sec_gift").slideDown(
+                                  1500,
+                                  "easeInOutCubic",
+                                );
+                                
+==================================================
+Line 4594:
+                           $("#sec_gift").slideUp(1500, "easeInOutCubic");
+                              } else {
+                                $("#sec_gift").slideDown(
+                                  1500,
+                                  "easeInOutCubic",
+                                );
+                                $("#btn_gift").animate(
+                                  { opacity: 0 },
+                                  1000,
+     
+==================================================
+

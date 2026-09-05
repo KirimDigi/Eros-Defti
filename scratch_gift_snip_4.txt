@@ -1,0 +1,28 @@
+import json, re
+
+path = r'C:\Users\user\.gemini\antigravity-ide\brain\97b8e657-67e8-4e82-86cb-7e986d97107f\.system_generated\logs\transcript_full.jsonl'
+
+gift_snippets = []
+with open(path, 'r', encoding='utf-8', errors='ignore') as f:
+    for line in f:
+        if 'c001933' in line or 'Wedding Gift' in line:
+            obj = json.loads(line)
+            tool_calls = obj.get('tool_calls', [])
+            for tc in tool_calls:
+                args = tc.get('args', {})
+                if 'ReplacementContent' in args:
+                    print("Found ReplacementContent with Wedding Gift!")
+                    gift_snippets.append(args['ReplacementContent'])
+                if 'CodeContent' in args:
+                    print("Found CodeContent with Wedding Gift!")
+                    gift_snippets.append(args['CodeContent'])
+            content = obj.get('content', '')
+            if 'Wedding Gift' in content:
+                print("Found content string with Wedding Gift!")
+                gift_snippets.append(content)
+
+print(f"Total snippets found: {len(gift_snippets)}")
+for i, snip in enumerate(gift_snippets):
+    with open(f'scratch_gift_snip_{i}.txt', 'w', encoding='utf-8') as out:
+        out.write(snip)
+    print(f"Saved snippet {i} len {len(snip)}")

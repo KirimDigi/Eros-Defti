@@ -1,0 +1,111 @@
+Created At: 2026-09-05T20:48:28+07:00
+Completed At: 2026-09-05T20:48:30+07:00
+
+				The command exited with code 0.
+				Output:
+				{
+  "CommandLine": "python -c \"\nwith open(r'c:\\Downloaded Web Sites\\defti & eros\\index.html', 'r', encoding='utf-8', errors='ignore') as f:\n    text = f.read()\n\nlines = text.splitlines()\n\nfor i, l in enumerate(lines):\n    if 'klik di sini' in l.lower() or 'amplop' in l.lower() or 'bca.png' in l.lower() or '480dfbe' in l:\n        print(f'L{i+1}: {l.strip()[:140]}')\n\"",
+  "Cwd": "c:\\Downloaded Web Sites\\defti & eros",
+  "WaitMsBeforeAsync": 5000,
+  "toolAction": "Searching for toggle button and bank cards container",
+  "toolSummary": "Python search for toggle button & cards"
+}
+==================================================
+Created At: 2026-09-05T19:45:48+07:00
+Completed At: 2026-09-05T19:45:57+07:00
+
+				The command exited with code 0.
+				Output:
+				L4591: <br />
+
+L4592: Dan jika memberi adalah ungkapan tanda kasih, Anda
+
+L4593: dapat memberi melalui dibawah ini.
+
+L4594: </p>
+
+L4595: </div>
+
+L4596: </div>
+
+L4597: <div
+
+L4598: data-dce-background-color="#B09B7B"
+
+L4599: class="elementor-element elementor-element-e88ce79 elementor-align-center wdsdv-enabled--yes elementor-mobile-align-center inv-atas elementor-widget elementor-widget-button"
+
+L4600: data-id="e88ce79"
+
+L4601: data-element_type="widget"
+
+L4602: data-e-type="widget"
+
+L4603: id="btn_gift"
+
+L4604: data-widget_type="button.default"
+
+L4605: >
+
+L4606: <div class="elementor-widget-container">
+
+L4607: <div class="elementor-button-wrapper">
+
+L4608: <a
+
+L4609: class="elementor-button elementor-size-sm elementor-animation-shrink"
+
+L4610: role="button"
+
+L4611: >
+
+L4612: <span class="elementor-button-content-wrapper">
+
+L4613: <span class="elementor-button-icon">
+
+L4614: <i
+
+L4615: aria-hidden="true"
+
+L4616: class="fas fa-credit-card"
+
+L4617: ></i>
+
+L4618: </span>
+
+L4619: <span class="elementor-button-text"
+
+L4620: >Klik di Sini</span
+
+L4621: >
+
+L4622: </span>
+
+L4623: </a>
+
+L4624: </div>
+
+L4625: </div>
+
+L4626: </div>
+
+L4627: <section
+
+L4628: class="elementor-section elementor-inner-section elementor-element elementor-element-5866f93 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+
+L4629: data-id="5866f93"
+
+L4630: data-element_type="section"
+
+L4631: data-e-type="section"
+
+L4632: id="sec_gift"
+
+L4633: data-settings='{"jet_parallax_layout_list":[]}'
+
+L4634: >
+
+L4635: <div
+
+
+
+

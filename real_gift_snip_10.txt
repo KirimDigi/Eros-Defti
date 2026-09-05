@@ -1,0 +1,16 @@
+Created At: 2026-09-05T19:46:00+07:00
+Completed At: 2026-09-05T19:46:02+07:00
+
+				The command exited with code 0.
+				Output:
+				L4603: id="btn_gift"
+L4632: id="sec_gift"
+L5346: var btn_gift = document.getElementById("btn_gift");
+L5347: var sec_gift = document.getElementById("sec_gift");
+L5348: btn_gift.onclick = function () {
+L5349: if (sec_gift.style.display === "block") {
+L5350: $("#sec_gift").slideUp(1500, "easeInOutCubic");
+L5352: $("#sec_gift").slideDown(
+L5356: $("#btn_gift").animate(
+L5362: btn_gift.style.display = "none";
+

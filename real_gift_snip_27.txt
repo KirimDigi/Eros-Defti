@@ -1,0 +1,13 @@
+python -c "
+import json, re
+
+path = r'C:\Users\user\.gemini\antigravity-ide\brain\97b8e657-67e8-4e82-86cb-7e986d97107f\.system_generated\logs\transcript_full.jsonl'
+
+matches = []
+with open(path, 'r', encoding='utf-8', errors='ignore') as f:
+    for idx, line in enumerate(f):
+        if 'id=\"sec_gift\"' in line or 'id=\\\"sec_gift\\\"' in line or 'id=\"btn_gift\"' in line:
+            matches.append((idx, len(line)))
+
+print('Matches:', matches)
+"

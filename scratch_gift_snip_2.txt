@@ -1,0 +1,22 @@
+import json, re
+
+path = r'C:\Users\user\.gemini\antigravity-ide\brain\97b8e657-67e8-4e82-86cb-7e986d97107f\.system_generated\logs\transcript_full.jsonl'
+
+with open(path, 'r', encoding='utf-8', errors='ignore') as f:
+    for line in f:
+        if 'c001933' in line:
+            obj = json.loads(line)
+            content = obj.get('content', '')
+            if 'elementor-element-c001933' in content:
+                pos = content.find('elementor-element-c001933')
+                # find start of section <section before pos
+                sec_start = content.rfind('<section', 0, pos)
+                sec_end = content.find('</section>', pos)
+                # find outer section end
+                for _ in range(5):
+                    sec_end = content.find('</section>', sec_end + 1)
+                gift_html = content[sec_start:sec_end+len('</section>')]
+                print("Found gift HTML len:", len(gift_html))
+                with open('extracted_c001933.html', 'w', encoding='utf-8') as out:
+                    out.write(gift_html)
+                break

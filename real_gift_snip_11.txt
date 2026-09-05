@@ -1,0 +1,21 @@
+python -c "
+with open(r'c:\Downloaded Web Sites\defti & eros\index.html', 'r', encoding='utf-8', errors='ignore') as f:
+    text = f.read()
+
+import re
+
+# Find sec_gift start
+idx_sec_gift = text.find('id=\"sec_gift\"')
+# Find Kado section start
+idx_kado_start = text.find('elementor-element-480dfbe')
+# Find Kado section end (closing tag of elementor-element-480dfbe section)
+idx_kado_end = text.find('<section\nclass=\"elementor-element elementor-element-4d69cc0')
+if idx_kado_end == -1:
+    idx_kado_end = text.find('data-id=\"4d69cc0\"')
+if idx_kado_end == -1:
+    idx_kado_end = text.find('id=\"btn_gift\"') # or script tag
+
+print('idx_sec_gift:', idx_sec_gift)
+print('idx_kado_start:', idx_kado_start)
+print('idx_kado_end:', idx_kado_end)
+"

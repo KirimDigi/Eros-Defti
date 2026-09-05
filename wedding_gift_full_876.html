@@ -1,0 +1,11 @@
+python -c "
+import os
+
+base = r'C:\Users\user\.gemini\antigravity-ide\brain\97b8e657-67e8-4e82-86cb-7e986d97107f\scratch'
+for file in os.listdir(base):
+    path = os.path.join(base, file)
+    with open(path, 'r', encoding='utf-8', errors='ignore') as f:
+        content = f.read()
+        if 'c001933' in content or 'sec_gift' in content or 'Wedding Gift' in content or '480dfbe' in content:
+            print(f'Found in {path}')
+"

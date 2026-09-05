@@ -1,0 +1,1 @@
+Scanning transcript_full.jsonl for sec_gift and bca.png

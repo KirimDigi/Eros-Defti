@@ -1,0 +1,13 @@
+Dua perbaikan berikut telah berhasil diterapkan pada [`index.html`](file:///c:/Downloaded%20Web%20Sites/defti%20%26%20eros/index.html):
+
+---
+
+### 🎁 1. Section Kado Dimasukkan ke Dalam "Klik di Sini" (`sec_gift`)
+* Section **Kado (Alamat Pengiriman Kado Fisik)** kini telah dimasukkan ke dalam container **`#sec_gift`**.
+* Saat tombol **"Klik di Sini"** diklik, baik kartu rekening bank maupun kartu Kado fisik akan muncul / tersembunyi bersamaan secara rapi.
+
+---
+
+### 🎨 2. Penghapusan Space Kosong Putih di Bawah Footer
+* Menambahkan styling CSS & menyembunyikan section ekstra di bawah footer sehingga warna cokelat khas footer (`#B09B7B`) memenuhan area bawah tanpa meninggalkan celah / space kosong putih sama sekali.
+* Footer kini berada tepat di posisi paling bawah dari halaman web.

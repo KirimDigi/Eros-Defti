@@ -1,0 +1,7 @@
+{
+  "CommandLine": "python -c \"\nwith open(r'c:\\Downloaded Web Sites\\defti & eros\\index.html', 'r', encoding='utf-8', errors='ignore') as f:\n    text = f.read()\n\nlines = text.splitlines()\n\nfor i, l in enumerate(lines):\n    if 'klik di sini' in l.lower() or 'amplop' in l.lower() or 'bca.png' in l.lower() or '480dfbe' in l:\n        print(f'L{i+1}: {l.strip()[:140]}')\n\"",
+  "Cwd": "c:\\Downloaded Web Sites\\defti & eros",
+  "WaitMsBeforeAsync": 5000,
+  "toolAction": "Searching for toggle button and bank cards container",
+  "toolSummary": "Python search for toggle button & cards"
+}

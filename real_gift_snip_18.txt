@@ -1,0 +1,18 @@
+Created At: 2026-09-05T19:57:47+07:00
+Completed At: 2026-09-05T19:57:49+07:00
+
+				The command exited with code 0.
+				Output:
+				L4603: id="btn_gift"
+L4632: id="sec_gift"
+L5184: class="elementor-section elementor-inner-section elementor-element elementor-element-480dfbe wdsdv-enabled--yes elementor-section-boxed elem
+L5185: data-id="480dfbe"
+L5431: var btn_gift = document.getElementById("btn_gift");
+L5432: var sec_gift = document.getElementById("sec_gift");
+L5433: btn_gift.onclick = function () {
+L5434: if (sec_gift.style.display === "block") {
+L5435: $("#sec_gift").slideUp(1500, "easeInOutCubic");
+L5437: $("#sec_gift").slideDown(
+L5441: $("#btn_gift").animate(
+L5447: btn_gift.style.display = "none";
+

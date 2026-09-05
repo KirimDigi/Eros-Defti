@@ -1,0 +1,10 @@
+python -c "
+with open(r'c:\Downloaded Web Sites\defti & eros\index.html', 'r', encoding='utf-8', errors='ignore') as f:
+    text = f.read()
+
+lines = text.splitlines()
+
+for i, l in enumerate(lines):
+    if 'sec_gift' in l or '480dfbe' in l or 'btn_gift' in l:
+        print('L' + str(i+1) + ': ' + l.strip()[:140])
+"

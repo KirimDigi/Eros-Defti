@@ -1,0 +1,34 @@
+import re
+
+file_path = r'c:\Downloaded Web Sites\defti & eros\index.html'
+
+with open(file_path, 'r', encoding='utf-8', errors='ignore') as f:
+    text = f.read()
+
+# Locate elementor-element-480dfbe (Kado section)
+idx_kado = text.find('elementor-element-480dfbe')
+print("idx_kado:", idx_kado)
+
+if idx_kado != -1:
+    sec_kado_start = text.rfind('<section', 0, idx_kado)
+    idx_next_widget = text.find('elementor-element-4d69cc0')
+    sec_kado_end = text.rfind('</section>', 0, idx_next_widget) + len('</section>')
+    
+    kado_html = text[sec_kado_start:sec_kado_end]
+    print("kado_html length:", len(kado_html))
+    
+    # Remove Kado section from its current position
+    text_without_kado = text[:sec_kado_start] + text[sec_kado_end:]
+    
+    # Now find end of sec_gift. sec_gift ends right before sec_kado_start was located
+    sec_gift_end = text_without_kado.rfind('</section>', 0, sec_kado_start)
+    print("sec_gift_end position:", sec_gift_end)
+    
+    # Insert kado_html right before sec_gift_end
+    text_updated = text_without_kado[:sec_gift_end] + '\n' + kado_html + '\n' + text_without_kado[sec_gift_end:]
+    
+    with open(file_path, 'w', encoding='utf-8') as f:
+        f.write(text_updated)
+    print("Successfully moved Kado section inside sec_gift!")
+else:
+    print("Kado section not found!")

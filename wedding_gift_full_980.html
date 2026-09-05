@@ -1,0 +1,17 @@
+python -c "
+import json
+
+path = r'C:\Users\user\.gemini\antigravity-ide\brain\97b8e657-67e8-4e82-86cb-7e986d97107f\.system_generated\logs\transcript_full.jsonl'
+
+with open(path, 'r', encoding='utf-8', errors='ignore') as f:
+    for idx, line in enumerate(f):
+        if 'c001933' in line or 'Wedding Gift' in line:
+            data = json.loads(line)
+            tc_list = data.get('tool_calls', [])
+            for tc in tc_list:
+                args = tc.get('args', {})
+                for k, v in args.items():
+                    if isinstance(v, str) and ('c001933' in v or 'Wedding Gift' in v):
+                        print(f'Line {idx} -> key={k}, len={len(v)}')
+                        open(f'wedding_gift_full_{idx}.html', 'w', encoding='utf-8').write(v)
+"

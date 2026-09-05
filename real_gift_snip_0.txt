@@ -1,0 +1,174 @@
+Created At: 2026-09-05T08:57:01+07:00
+Completed At: 2026-09-05T09:01:22+07:00
+
+				The command exited with code 0.
+				Output:
+				<truncated 114 lines>
+Line 5147: data-thumbnail="https://the.invisimple.id/wp-content/uploads/jet-form-builder/e6fb52c108655e3dbb47bfeccce12131/2024/10/img-sample-01-8.jpeg"
+Line 5165: data-thumbnail="https://the.invisimple.id/wp-content/uploads/jet-form-builder/e6fb52c108655e3dbb47bfeccce12131/2024/10/img-sample-01-9.jpeg"
+Line 5301: data-dce-background-image-url="https://the.invisimple.id/wp-content/uploads/2024/10/bg-card-03.jpg"
+Line 5348: src="../wp-content/uploads/2024/10/bca.png"
+Line 5352: ../wp-content/uploads/2024/10/bca.png        153w,
+Line 5353: ../wp-content/uploads/2024/10/bca-150x50.png 150w
+Line 5373: No Rekening
+Line 5409: Atas Nama
+Line 5427: Putri Cantika Sari
+Line 5524: data-dce-background-image-url="https://the.invisimple.id/wp-content/uploads/2024/10/bg-card-03.jpg"
+Line 5596: No Rekening
+Line 5632: Atas Nama
+Line 5650: Putra Andika Pratama
+Line 5747: data-dce-background-image-url="https://the.invisimple.id/wp-content/uploads/2024/10/bg-card-03.jpg"
+Line 5819: No Rekening
+Line 5855: Atas Nama
+Line 5873: Putra Andika Pratama
+Line 5970: data-dce-background-image-url="https://the.invisimple.id/wp-content/uploads/2024/10/bg-card-03.jpg"
+Line 6016: Kado
+Line 6034: Nama Penerima
+Line 6052: Putri / Putra
+Line 6353: placeholder="Nama"
+Line 6448: Jumlah Tamu
+Line 6465: >Pilih jumlah tamu</span
+Line 6670: data-settings='{"background_background":"slideshow","background_slideshow_slide_duration":1000,"background_slideshow_transition_duration":3000,"backgr
+Line 6727: kami, apabila Bapak/Ibu/Saudara/i, berkenan hadir
+Line 6728: dan memberikan do�a restu kepada kami.<br />
+Line 6730: <b>Wassalamu�alaikum warahmatullahi wabarakatuh</b>
+Line 6762: Putri &amp; Andika
+Line 6856: src="../wp-content/uploads/2025/06/INVITIMO.png"
+Line 6876: INVITIMO
+Line 6900: href="https://www.instagram.com/invitimo.id/"
+Line 6940: href="https://www.tiktok.com/@invitimo.id/"
+Line 7004: class="elementor-element elementor-element-73703ab elementor-absolute wdsdv-enabled--yes elementor-view-default elementor-shape-circle elementor-widge
+Line 7008: data-settings='{"audio_loop":"yes","_position":"absolute"}'
+Line 7009: data-widget_type="ams-audio.default"
+Line 7013: #wds-audio-container {
+Line 7063: id="wds-audio-container"
+Line 7064: class="wds-audio-box"
+Line 7072: <audio id="song" loop="">
+Line 7075: type="audio/mp3"
+Line 7077: </audio>
+Line 7308: icon-audio-invisimple
+Line 7352: "youtube-audio",
+Line 7366: var audioLoopEnabled = !0;
+Line 7428: function audioActive() {
+Line 7436: function audioInactive() {
+Line 7444: window.audioActive = audioActive;
+Line 7445: window.audioInactive =
+Line 7446: audioInactive;
+Line 7546: function initElementorBackgroundVideoAudioGuard() {
+Line 7548: window.__amsElementorBackgroundAudioGuard ===
+Line 7559: window.__amsElementorBackgroundAudioGuard =
+Line 7625: video.setAttribute(
+Line 7629: video.setAttribute(
+Line 7633: video.setAttribute(
+Line 7677: iframe.getAttribute(
+Line 7957: var audioBox =
+Line 7959: "wds-audio-container",
+Line 7962: !audioBox ||
+Line 7963: audioBox.dataset
+Line 7967: audioBox.dataset.amsScrollBound =
+Line 7985: audioBox.classList.remove(
+Line 7988: audioBox.classList.add(
+Line 7992: audioBox.classList.remove(
+Line 7995: audioBox.classList.add(
+Line 8016: typeof window.playAudio ===
+Line 8019: window.playAudio();
+Line 8021: typeof window.pauseAudio ===
+Line 8029: window.pauseAudio(!0);
+Line 8035: initElementorBackgroundVideoAudioGuard();
+Line 8064: function fadeAudio(
+Line 8113: function nativePlayAudio() {
+Line 8129: audioActive();
+Line 8137: audioInactive();
+Line 8147: fadeAudio(
+Line 8151: audioActive();
+Line 8154: audioInactive();
+Line 8157: fadeAudio(1, fadeDuration);
+Line 8158: audioActive();
+Line 8161: function nativePauseAudio(
+Line 8175: audioInactive();
+Line 8178: fadeAudio(0, fadeDuration);
+Line 8189: audioInactive();
+Line 8191: function toggleNativeAudio() {
+Line 8193: nativePlayAudio();
+Line 8194: else nativePauseAudio(!1);
+Line 8196: window.playAudio =
+Line 8197: nativePlayAudio;
+Line 8198: window.pauseAudio =
+Line 8199: nativePauseAudio;
+Line 8200: window.toggleAudio =
+Line 8201: toggleNativeAudio;
+Line 8213: nativePlayAudio();
+Line 8221: .off("click.amsAudio")
+Line 8223: "click.amsAudio",
+Line 8224: toggleNativeAudio,
+Line 8227: .off("click.amsAudio")
+Line 8229: "click.amsAudio",
+Line 8230: nativePlayAudio,
+Line 8235: .off("click.amsAudio")
+Line 8237: "click.amsAudio",
+Line 8240: toggleNativeAudio();
+Line 8251: nativePlayAudio,
+Line 8255: nativePlayAudio();
+Line 8275: function youtubePlayAudio() {
+Line 8294: function youtubePauseAudio() {
+Line 8297: audioInactive();
+Line 8303: audioInactive();
+Line 8305: function toggleYoutubeAudio() {
+Line 8317: youtubePauseAudio();
+Line 8318: else youtubePlayAudio();
+Line 8321: window.playAudio =
+Line 8322: youtubePlayAudio;
+Line 8323: window.pauseAudio =
+Line 8324: youtubePauseAudio;
+Line 8325: window.toggleAudio =
+Line 8326: toggleYoutubeAudio;
+Line 8361: if (audioLoopEnabled) {
+Line 8377: "YouTube audio player";
+Line 8380: iframe.setAttribute(
+Line 8384: iframe.setAttribute(
+Line 8418: youtubePlayAudio();
+Line 8434: audioActive();
+Line 8441: audioInactive();
+Line 8449: audioLoopEnabled ||
+Line 8464: audioInactive();
+Line 8470: audioInactive();
+Line 8475: window.amsAudioPlayer =
+Line 8478: audioInactive();
+Line 8485: .off("click.amsAudio")
+Line 8487: "click.amsAudio",
+Line 8488: youtubePlayAudio,
+Line 8493: .off("click.amsAudio")
+Line 8495: "click.amsAudio",
+Line 8496: toggleYoutubeAudio,
+Line 8501: .off("click.amsAudio")
+Line 8503: "click.amsAudio",
+Line 8504: youtubePauseAudio,
+Line 8571: .removeAttribute("autoplay");
+Line 8800: data-dce-background-image-url="https://the.invisimple.id/wp-content/uploads/2024/10/Garden-03-Ayat.jpg"
+Line 8835: Putri &amp; Andika
+Line 8869: data-settings='{"jet_parallax_layout_list":[],"background_background":"video","background_video_link":"https:\/\/the.invisimple.id\/wp-content\/upload
+Line 9021: data-settings='{"jet_parallax_layout_list":[],"background_background":"slideshow","background_slideshow_gallery":[{"id":8136,"url":"https:\/\/the.invi
+Line 9037: class="elementor-section elementor-inner-section elementor-element elementor-element-255ed39 posisi-nama-cover elementor-section-boxed elementor-secti
+Line 9083: Putri &amp; Andika
+Line 9126: Kepada Yth.<br />Bapak/Ibu/Saudara/i
+Line 9142: *Mohon maaf jika ada kesalahan dalam penulisan nama
+Line 9208: Mohon tunjukkan QR Code ini pada area buku tamu di
+Line 10034: ajaxurl: "https://invitimo2.my.id/wp-admin/admin-ajax.php",
+Line 10054: src="../wp-content/litespeed/js/36e583e8dbcac012cc81f8c35750f45a.js?ver=0f45a"
+Line 10196: "https:\/\/the.invisimple.id\/wp-content\/plugins\/elementor\/assets\/",
+Line 10197: ajaxurl: "https:\/\/invitimo2.my.id\/wp-admin\/admin-ajax.php",
+Line 10198: uploadUrl: "https:\/\/the.invisimple.id\/wp-content\/uploads",
+Line 10223: "https:\/\/the.invisimple.id\/wp-content\/uploads\/2026\/01\/preview-m03-reseller.jpg",
+Line 10244: ajaxUrl: "https://invitimo2.my.id/wp-admin/admin-ajax.php",
+Line 10247: "https://invitimo2.my.id/wp-json/jet-elements-api/v1/elementor-template",
+Line 10305: ajax_url: "https://invitimo2.my.id/wp-admin/admin-ajax.php",
+Line 10308: "https://the.invisimple.id/wp-content/plugins/happy-elementor-addons/assets/vendor/pdfjs/lib",
+Line 10324: ajaxUrl: "https://invitimo2.my.id/wp-admin/admin-ajax.php",
+Line 10370: ajaxurl: "https:\/\/invitimo2.my.id\/wp-admin\/admin-ajax.php",
+Line 10374: "https:\/\/the.invisimple.id\/wp-content\/plugins\/elementor-pro\/assets\/",
+Line 10375: rest: "https:\/\/invitimo2.my.id\/wp-json\/",
+Line 10404: "https:\/\/the.invisimple.id\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json",
+Line 10579: "wpemoji": "https://invitimo2.my.id/wp-includes/js/wp-emoji.js?ver=7.0.4",
+Line 10580: "twemoji": "https://invitimo2.my.id/wp-includes/js/twemoji.js?ver=7.0.4"
+Line 11043: //# sourceURL=https://invitimo2.my.id/wp-includes/js/wp-emoji-loader.js
+

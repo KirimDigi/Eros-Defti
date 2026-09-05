@@ -1,0 +1,17 @@
+import re
+
+path = r'C:\Users\user\.gemini\antigravity-ide\brain\97b8e657-67e8-4e82-86cb-7e986d97107f\.system_generated\logs\transcript_full.jsonl'
+with open(path, 'r', encoding='utf-8', errors='ignore') as f:
+    text = f.read()
+
+pos = text.find('elementor-element-c001933')
+print('pos:', pos)
+if pos != -1:
+    pos_end = text.find('elementor-element-731caf7', pos)
+    print('pos_end:', pos_end)
+    extracted = text[pos-80:pos_end-80]
+    # Clean escaped characters like \r\n and \"
+    extracted = extracted.replace(r'\r\n', '\n').replace(r'\"', '"').replace(r'\/', '/')
+    with open(r'scratch_extracted_gift.txt', 'w', encoding='utf-8') as out:
+        out.write(extracted)
+    print("Saved extracted gift section to scratch_extracted_gift.txt")

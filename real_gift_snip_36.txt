@@ -1,0 +1,15 @@
+python -c "
+import glob, json, re
+
+path = r'C:\Users\user\.gemini\antigravity-ide\brain\97b8e657-67e8-4e82-86cb-7e986d97107f\.system_generated\logs\transcript_full.jsonl'
+
+with open(path, 'r', encoding='utf-8', errors='ignore') as f:
+    for line in f:
+        if 'bca.png' in line or '12311122' in line or '98722211' in line:
+            # print line number and len
+            pos = line.find('bca.png')
+            if pos != -1:
+                print('Found bca.png! len:', len(line))
+                print(line[max(0, pos-500):min(len(line), pos+2000)])
+                print('='*50)
+"

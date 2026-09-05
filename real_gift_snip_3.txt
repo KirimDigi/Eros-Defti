@@ -1,0 +1,26 @@
+Created At: 2026-09-05T09:46:05+07:00
+Completed At: 2026-09-05T09:53:35+07:00
+
+				The command exited with code 0.
+				Output:
+				L5348: src="../wp-content/uploads/2024/10/bca.png"
+L5352: ../wp-content/uploads/2024/10/bca.png        153w,
+L5353: ../wp-content/uploads/2024/10/bca-150x50.png 150w
+L5373: No Rekening
+L5409: Atas Nama
+L5427: Putri Cantika Sari
+L5571: src="../wp-content/uploads/2024/10/bri.png"
+L5575: ../wp-content/uploads/2024/10/bri.png        153w,
+L5576: ../wp-content/uploads/2024/10/bri-150x50.png 150w
+L5596: No Rekening
+L5632: Atas Nama
+L5650: Putra Andika Pratama
+L5794: src="../wp-content/uploads/2024/10/bni.png"
+L5798: ../wp-content/uploads/2024/10/bni.png        153w,
+L5799: ../wp-content/uploads/2024/10/bni-150x50.png 150w
+L5819: No Rekening
+L5855: Atas Nama
+L5873: Putra Andika Pratama
+L6016: Kado
+L6034: Nama Penerima
+

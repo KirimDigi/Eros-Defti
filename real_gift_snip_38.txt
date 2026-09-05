@@ -1,0 +1,1 @@
+Search transcript_full.jsonl for bca.png and card details

@@ -1,0 +1,102 @@
+Created At: 2026-09-05T09:12:35+07:00
+Completed At: 2026-09-05T09:22:59+07:00
+
+				The command exited with code 0.
+				Output:
+				<truncated 1 lines>
+L3390 [Dania]: Bapak Deni Bastian dan Ibu Aisha Dania
+L3406 [user_ig_pria]: href="https://www.instagram.com/user_ig_pria/"
+L3420 [user_ig_pria]: >user_ig_pria</span
+L3469 [invisimple]: data-settings='{"background_background":"slideshow","background_slideshow_slide_duration":1000,"background_slideshow_transition_duration":30
+L3563 [Putri]: href="https://www.google.com/calendar/render?action=TEMPLATE&text=Tema%203D%20Motion%2003&details=The%20Wedding%20Of%20%3A%3Cbr%3E%3Cbr%3EPu
+L3563 [Andika]: href="https://www.google.com/calendar/render?action=TEMPLATE&text=Tema%203D%20Motion%2003&details=The%20Wedding%20Of%20%3A%3Cbr%3E%3Cbr%3EPu
+L3563 [Cantika]: href="https://www.google.com/calendar/render?action=TEMPLATE&text=Tema%203D%20Motion%2003&details=The%20Wedding%20Of%20%3A%3Cbr%3E%3Cbr%3EPu
+L3563 [Pratama]: href="https://www.google.com/calendar/render?action=TEMPLATE&text=Tema%203D%20Motion%2003&details=The%20Wedding%20Of%20%3A%3Cbr%3E%3Cbr%3EPu
+L3563 [Minggu]: href="https://www.google.com/calendar/render?action=TEMPLATE&text=Tema%203D%20Motion%2003&details=The%20Wedding%20Of%20%3A%3Cbr%3E%3Cbr%3EPu
+L3563 [Desember]: href="https://www.google.com/calendar/render?action=TEMPLATE&text=Tema%203D%20Motion%2003&details=The%20Wedding%20Of%20%3A%3Cbr%3E%3Cbr%3EPu
+L3563 [2027]: href="https://www.google.com/calendar/render?action=TEMPLATE&text=Tema%203D%20Motion%2003&details=The%20Wedding%20Of%20%3A%3Cbr%3E%3Cbr%3EPu
+L3693 [invisimple]: data-dce-background-image-url="https://the.invisimple.id/wp-content/uploads/2024/10/Garden-03-Overlay.jpg"
+L3772 [Minggu]: Minggu
+L3809 [Desember]: >Desember</span
+L3817 [2027]: >2027</span
+L3897 [TsZCeupoF4p6bksT6]: href="https://maps.app.goo.gl/TsZCeupoF4p6bksT6"
+L3897 [maps.app.goo.gl]: href="https://maps.app.goo.gl/TsZCeupoF4p6bksT6"
+L3942 [invisimple]: data-dce-background-image-url="https://the.invisimple.id/wp-content/uploads/2024/10/Garden-03-Overlay.jpg"
+L4021 [Minggu]: Minggu
+L4058 [Desember]: >Desember</span
+L4066 [2027]: >2027</span
+L4146 [TsZCeupoF4p6bksT6]: href="https://maps.app.goo.gl/TsZCeupoF4p6bksT6"
+L4146 [maps.app.goo.gl]: href="https://maps.app.goo.gl/TsZCeupoF4p6bksT6"
+L4422 [Love Story]: Love Story
+L4557 [Desember]: 29 DESEMBER 2025
+L5039 [invisimple]: data-thumbnail="https://the.invisimple.id/wp-content/uploads/jet-form-builder/e6fb52c108655e3dbb47bfeccce12131/2024/10/img-sample-01-2.jpeg"
+L5057 [invisimple]: data-thumbnail="https://the.invisimple.id/wp-content/uploads/jet-form-builder/e6fb52c108655e3dbb47bfeccce12131/2024/10/img-sample-01-12.jpeg
+L5075 [invisimple]: data-thumbnail="https://the.invisimple.id/wp-content/uploads/jet-form-builder/e6fb52c108655e3dbb47bfeccce12131/2024/10/img-sample-01-3.jpeg"
+L5093 [invisimple]: data-thumbnail="https://the.invisimple.id/wp-content/uploads/jet-form-builder/e6fb52c108655e3dbb47bfeccce12131/2024/10/img-sample-01-4.jpeg"
+L5111 [invisimple]: data-thumbnail="https://the.invisimple.id/wp-content/uploads/jet-form-builder/e6fb52c108655e3dbb47bfeccce12131/2024/10/img-sample-01-7.jpeg"
+L5129 [invisimple]: data-thumbnail="https://the.invisimple.id/wp-content/uploads/jet-form-builder/e6fb52c108655e3dbb47bfeccce12131/2024/10/img-sample-01-10.jpeg
+L5147 [invisimple]: data-thumbnail="https://the.invisimple.id/wp-content/uploads/jet-form-builder/e6fb52c108655e3dbb47bfeccce12131/2024/10/img-sample-01-8.jpeg"
+L5165 [invisimple]: data-thumbnail="https://the.invisimple.id/wp-content/uploads/jet-form-builder/e6fb52c108655e3dbb47bfeccce12131/2024/10/img-sample-01-9.jpeg"
+L5301 [invisimple]: data-dce-background-image-url="https://the.invisimple.id/wp-content/uploads/2024/10/bg-card-03.jpg"
+L5348 [BCA]: src="../wp-content/uploads/2024/10/bca.png"
+L5352 [BCA]: ../wp-content/uploads/2024/10/bca.png        153w,
+L5353 [BCA]: ../wp-content/uploads/2024/10/bca-150x50.png 150w
+L5427 [Putri]: Putri Cantika Sari
+L5427 [Cantika]: Putri Cantika Sari
+L5524 [invisimple]: data-dce-background-image-url="https://the.invisimple.id/wp-content/uploads/2024/10/bg-card-03.jpg"
+L5571 [BRI]: src="../wp-content/uploads/2024/10/bri.png"
+L5575 [BRI]: ../wp-content/uploads/2024/10/bri.png        153w,
+L5576 [BRI]: ../wp-content/uploads/2024/10/bri-150x50.png 150w
+L5650 [Andika]: Putra Andika Pratama
+L5650 [Pratama]: Putra Andika Pratama
+L5747 [invisimple]: data-dce-background-image-url="https://the.invisimple.id/wp-content/uploads/2024/10/bg-card-03.jpg"
+L5794 [BNI]: src="../wp-content/uploads/2024/10/bni.png"
+L5798 [BNI]: ../wp-content/uploads/2024/10/bni.png        153w,
+L5799 [BNI]: ../wp-content/uploads/2024/10/bni-150x50.png 150w
+L5873 [Andika]: Putra Andika Pratama
+L5873 [Pratama]: Putra Andika Pratama
+L5970 [invisimple]: data-dce-background-image-url="https://the.invisimple.id/wp-content/uploads/2024/10/bg-card-03.jpg"
+L6052 [Putri]: Putri / Putra
+L6670 [invisimple]: data-settings='{"background_background":"slideshow","background_slideshow_slide_duration":1000,"background_slideshow_transition_duration":30
+L6762 [Putri]: Putri &amp; Andika
+L6762 [Andika]: Putri &amp; Andika
+L6856 [INVITIMO]: src="../wp-content/uploads/2025/06/INVITIMO.png"
+L6876 [INVITIMO]: INVITIMO
+L6900 [INVITIMO]: href="https://www.instagram.com/invitimo.id/"
+L6900 [invitimo.id]: href="https://www.instagram.com/invitimo.id/"
+L6940 [INVITIMO]: href="https://www.tiktok.com/@invitimo.id/"
+L6940 [invitimo.id]: href="https://www.tiktok.com/@invitimo.id/"
+L7308 [invisimple]: icon-audio-invisimple
+L8800 [invisimple]: data-dce-background-image-url="https://the.invisimple.id/wp-content/uploads/2024/10/Garden-03-Ayat.jpg"
+L8835 [Putri]: Putri &amp; Andika
+L8835 [Andika]: Putri &amp; Andika
+L8850 [28 Desember 2027]: Minggu, 28 Desember 2027
+L8850 [Minggu]: Minggu, 28 Desember 2027
+L8850 [Desember]: Minggu, 28 Desember 2027
+L8850 [2027]: Minggu, 28 Desember 2027
+L8869 [invisimple]: data-settings='{"jet_parallax_layout_list":[],"background_background":"video","background_video_link":"https:\/\/the.invisimple.id\/wp-conte
+L9021 [invisimple]: data-settings='{"jet_parallax_layout_list":[],"background_background":"slideshow","background_slideshow_gallery":[{"id":8136,"url":"https:\/
+L9083 [Putri]: Putri &amp; Andika
+L9083 [Andika]: Putri &amp; Andika
+L10034 [INVITIMO]: ajaxurl: "https://invitimo2.my.id/wp-admin/admin-ajax.php",
+L10054 [BCA]: src="../wp-content/litespeed/js/36e583e8dbcac012cc81f8c35750f45a.js?ver=0f45a"
+L10196 [invisimple]: "https:\/\/the.invisimple.id\/wp-content\/plugins\/elementor\/assets\/",
+L10197 [INVITIMO]: ajaxurl: "https:\/\/invitimo2.my.id\/wp-admin\/admin-ajax.php",
+L10198 [invisimple]: uploadUrl: "https:\/\/the.invisimple.id\/wp-content\/uploads",
+L10223 [2026]: "https:\/\/the.invisimple.id\/wp-content\/uploads\/2026\/01\/preview-m03-reseller.jpg",
+L10223 [invisimple]: "https:\/\/the.invisimple.id\/wp-content\/uploads\/2026\/01\/preview-m03-reseller.jpg",
+L10244 [INVITIMO]: ajaxUrl: "https://invitimo2.my.id/wp-admin/admin-ajax.php",
+L10247 [INVITIMO]: "https://invitimo2.my.id/wp-json/jet-elements-api/v1/elementor-template",
+L10305 [INVITIMO]: ajax_url: "https://invitimo2.my.id/wp-admin/admin-ajax.php",
+L10308 [invisimple]: "https://the.invisimple.id/wp-content/plugins/happy-elementor-addons/assets/vendor/pdfjs/lib",
+L10324 [INVITIMO]: ajaxUrl: "https://invitimo2.my.id/wp-admin/admin-ajax.php",
+L10370 [INVITIMO]: ajaxurl: "https:\/\/invitimo2.my.id\/wp-admin\/admin-ajax.php",
+L10374 [invisimple]: "https:\/\/the.invisimple.id\/wp-content\/plugins\/elementor-pro\/assets\/",
+L10375 [INVITIMO]: rest: "https:\/\/invitimo2.my.id\/wp-json\/",
+L10404 [invisimple]: "https:\/\/the.invisimple.id\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json",
+L10579 [INVITIMO]: "wpemoji": "https://invitimo2.my.id/wp-includes/js/wp-emoji.js?ver=7.0.4",
+L10580 [INVITIMO]: "twemoji": "https://invitimo2.my.id/wp-includes/js/twemoji.js?ver=7.0.4"
+L11043 [INVITIMO]: //# sourceURL=https://invitimo2.my.id/wp-includes/js/wp-emoji-loader.js
+L11085 [2026]: <!-- Page optimized by LiteSpeed Cache @2026-09-05 08:35:06 -->
+L11087 [2026]: <!-- Page cached by LiteSpeed Cache 7.9 on 2026-09-05 08:35:06 -->
+

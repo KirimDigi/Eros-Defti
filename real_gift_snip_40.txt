@@ -1,0 +1,19 @@
+python -c "
+path = r'C:\Users\user\.gemini\antigravity-ide\brain\97b8e657-67e8-4e82-86cb-7e986d97107f\.system_generated\logs\transcript_full.jsonl'
+
+cards_html = []
+with open(path, 'r', encoding='utf-8', errors='ignore') as f:
+    for line in f:
+        if 'bca.png' in line:
+            pos = line.find('bca.png')
+            sec_start = line.rfind('<section', 0, pos)
+            sec_end = line.find('elementor-element-731caf7', pos)
+            if sec_end == -1: sec_end = pos + 4000
+            cards_html.append(line[sec_start:sec_end])
+
+print('Total cards snippets:', len(cards_html))
+if cards_html:
+    with open('extracted_bank_cards.html', 'w', encoding='utf-8') as out:
+        out.write(cards_html[0])
+    print('Saved extracted_bank_cards.html!')
+"

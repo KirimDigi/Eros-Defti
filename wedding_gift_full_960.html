@@ -1,0 +1,30 @@
+import re
+
+with open('line_587_content.txt', 'r', encoding='utf-8') as f:
+    text = f.read()
+
+# Find Wedding Gift
+pos_wg = text.find('Wedding Gift')
+print("pos_wg:", pos_wg)
+
+# Find <section before Wedding Gift
+pos_sec_start = text.rfind('<section', 0, pos_wg)
+print("pos_sec_start:", pos_sec_start)
+
+# Find end of section - this is section c001933 which ends before section 731caf7 or at closing </section>
+# Let's print from pos_sec_start to the end of text
+raw_section = text[pos_sec_start:]
+
+# Remove line number prefixes e.g. "4610: "
+cleaned_lines = []
+for line in raw_section.split('\n'):
+    cleaned_line = re.sub(r'^\d+:\s*', '', line)
+    cleaned_lines.append(cleaned_line)
+
+cleaned_text = '\n'.join(cleaned_lines)
+
+with open('clean_gift_section_restored.html', 'w', encoding='utf-8') as out:
+    out.write(cleaned_text)
+
+print("Saved clean_gift_section_restored.html len:", len(cleaned_text))
+print("First 500 chars:\n", cleaned_text[:500])

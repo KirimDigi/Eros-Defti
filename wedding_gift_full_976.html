@@ -1,0 +1,16 @@
+python -c "
+import glob, json
+
+for fpath in glob.glob('scratch_sec_gift_line_*.txt'):
+    with open(fpath, 'r', encoding='utf-8') as f:
+        data = json.loads(f.read())
+    tc_list = data.get('tool_calls', [])
+    for tc in tc_list:
+        args = tc.get('args', {})
+        for k, v in args.items():
+            if isinstance(v, str) and ('sec_gift' in v or 'Wedding Gift' in v):
+                print(f'{fpath} -> key={k}, len={len(v)}')
+                if len(v) > 500:
+                    open('FOUND_FULL_GIFT.html', 'w', encoding='utf-8').write(v)
+                    print('Saved FOUND_FULL_GIFT.html!')
+"

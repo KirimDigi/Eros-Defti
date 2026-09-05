@@ -1,0 +1,24 @@
+import json, re
+
+with open('scratch_c001933_raw.txt', 'r', encoding='utf-8') as f:
+    data = json.load(f)
+
+content = data.get('content', '')
+
+pos = content.find('elementor-element-c001933')
+sec_start = content.rfind('<section', 0, pos)
+
+# Find 731caf7
+pos_next = content.find('elementor-element-731caf7', pos)
+sec_end = content.rfind('<section', 0, pos_next)
+
+extracted_html = content[sec_start:sec_end]
+print("Extracted HTML length:", len(extracted_html))
+
+# Clean line numbers from view_file format if present (e.g. 4633: )
+cleaned_html = re.sub(r'^\d+:\s*', '', extracted_html, flags=re.MULTILINE)
+
+with open('c001933_restored.html', 'w', encoding='utf-8') as out:
+    out.write(cleaned_html)
+
+print("Saved c001933_restored.html successfully!")

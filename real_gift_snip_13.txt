@@ -1,0 +1,27 @@
+import re
+
+file_path = r'c:\Downloaded Web Sites\defti & eros\index.html'
+
+with open(file_path, 'r', encoding='utf-8', errors='ignore') as f:
+    text = f.read()
+
+# Locate sec_gift start
+idx_sec_gift_start = text.find('id="sec_gift"')
+print("sec_gift start:", idx_sec_gift_start)
+
+# Locate Kado section start: elementor-element-480dfbe
+idx_kado = text.find('elementor-element-480dfbe')
+print("kado index:", idx_kado)
+
+if idx_kado != -1:
+    sec_kado_start = text.rfind('<section', 0, idx_kado)
+    # Kado section ends right before the next widget elementor-element-4d69cc0 (script widget id=btn_gift logic)
+    idx_next_widget = text.find('elementor-element-4d69cc0')
+    if idx_next_widget != -1:
+        sec_kado_end = text.rfind('<div', 0, idx_next_widget)
+        # Find </section> tag of Kado section before sec_kado_end
+        sec_kado_end = text.rfind('</section>', 0, idx_next_widget) + len('</section>')
+        print(f"Kado section bounds: [{sec_kado_start}:{sec_kado_end}]")
+        kado_html = text[sec_kado_start:sec_kado_end]
+        print("Kado snippet start:\n", kado_html[:150])
+        print("Kado snippet end:\n", kado_html[-150:])

@@ -1,0 +1,22 @@
+python -c "
+import json
+
+with open('scratch_sec_gift_line_665.txt', 'r', encoding='utf-8') as f:
+    data = json.load(f)
+
+print('Type:', data.get('type'))
+content = data.get('content', '')
+print('Content len:', len(content))
+
+# Look for section c001933 or sec_gift
+if 'c001933' in content or 'sec_gift' in content:
+    pos = content.find('c001933')
+    if pos == -1: pos = content.find('sec_gift')
+    sec_start = content.rfind('<section', 0, pos)
+    sec_end = content.find('elementor-element-731caf7', pos)
+    if sec_end == -1: sec_end = pos + 5000
+    gift_html = content[sec_start:sec_end]
+    print('Gift HTML len:', len(gift_html))
+    with open('full_restored_gift.html', 'w', encoding='utf-8') as out:
+        out.write(gift_html)
+"

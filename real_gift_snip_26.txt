@@ -1,0 +1,106 @@
+Created At: 2026-09-05T20:41:07+07:00
+Completed At: 2026-09-05T20:41:17+07:00
+
+				The command exited with code 0.
+				Output:
+				4551:                                 aria-label=""
+4552:                                 role="img"
+4553:                               ></div>
+4554:                               <div
+4555:                                 class="elementor-gallery-item__overlay"
+4556:                               ></div>
+4557:                             </a>
+4558: <a
+4559:                               class="e-gallery-item elementor-gallery-item elementor-animated-content"
+4560:                               href="../wp-content/uploads/jet-form-builder/e6fb52c108655e3dbb47bfeccce12131/2024/10/img-sample-01-4.jpeg"
+4561:                               data-elementor-open-lightbox="yes"
+4562:                               data-elementor-lightbox-slideshow="17f5026"
+4563:                               data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6NzY3OCwidXJsIjoiaHR0cHM6XC9cL3RoZS5pbnZpc2ltcGxlLmlkXC93cC1jb250ZW50XC91cGxvYWRzXC9qZXQtZm9ybS1idWlsZGVyXC9lNmZiNTJjMTA4NjU1ZTNkYmI0N2JmZWNjY2UxMjEzMVwvMjAyNFwvMTBcL2ltZy1zYW1wbGUtMDEtNC5qcGVnIiwic2xpZGVzaG93IjoiMTdmNTAyNiJ9"
+4564:                               ><div
+4565:                                 class="e-gallery-image elementor-gallery-item__image"
+4566:                                 data-thumbnail="https://the.invisimple.id/wp-content/uploads/jet-form-builder/e6fb52c108655e3dbb47bfeccce12131/2024/10/img-sample-01-4.jpeg"
+4567:                                 data-width="667"
+4568:                                 data-height="1000"
+4569:                                 aria-label=""
+4570:                                 role="img"
+4571:                               ></div>
+4572:                               <div
+4573:                                 class="elementor-gallery-item__overlay"
+4574:                               ></div>
+4575:                             </a></div>
+4576:                           </div>
+4577:                         </div>
+4578:                       </section>
+4579:                       <div
+4580:                         class="elementor-element elementor-element-4d69cc0 elementor-widget elementor-widget-html"
+4581:                         data-id="4d69cc0"
+4582:                         data-element_type="widget"
+4583:                         data-e-type="widget"
+4584:                         data-widget_type="html.default"
+4585:                       >
+4586:                         <div class="elementor-widget-container">
+4587:                           <script>
+4588:                             var btn_gift = document.getElementById("btn_gift");
+4589:                             var sec_gift = document.getElementById("sec_gift");
+4590:                             btn_gift.onclick = function () {
+4591:                               if (sec_gift.style.display === "block") {
+4592:                                 $("#sec_gift").slideUp(1500, "easeInOutCubic");
+4593:                               } else {
+4594:                                 $("#sec_gift").slideDown(
+4595:                                   1500,
+4596:                                   "easeInOutCubic",
+4597:                                 );
+4598:                                 $("#btn_gift").animate(
+4599:                                   { opacity: 0 },
+4600:                                   1000,
+4601:                                   "easeInOutCirc",
+4602:                                 );
+4603:                                 window.setTimeout(function () {
+4604:                                   btn_gift.style.display = "none";
+4605:                                 }, 2000);
+4606:                               }
+4607:                             };
+4608:                           </script>
+4609:                         </div>
+4610:                       </div>
+4611:                     </div>
+4612:                   </div>
+4613:                 </div>
+4614:               </section>
+4615:               <section
+4616:                 data-dce-background-overlay-color="#F9F7F5"
+4617:                 class="elementor-section elementor-inner-section elementor-element elementor-element-731caf7 elementor-section-full_width elementor-section-content-middle wdsdv-enabled--yes elementor-section-height-default elementor-section-height-default"
+4618:                 data-id="731caf7"
+4619:                 data-element_type="section"
+4620:                 data-e-type="section"
+4621:                 data-settings='{"jet_parallax_layout_list":[],"background_background":"classic"}'
+4622:               >
+4623:                 <div class="elementor-background-overlay"></div>
+4624:                 <div class="elementor-container elementor-column-gap-no">
+4625:                   <div
+4626:                     class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-ae2dba2"
+4627:                     data-id="ae2dba2"
+4628:                     data-element_type="column"
+4629:                     data-e-type="column"
+4630:                     data-settings='{"background_background":"classic"}'
+4631:                   >
+4632:                     <div
+4633:                       class="elementor-widget-wrap elementor-element-populated"
+4634:                     >
+4635:                       <div class="elementor-background-overlay"></div>
+4636:                       <div
+4637:                         data-dce-title-color="#333333"
+4638:                         class="elementor-element elementor-element-5963b2e inv-atas elementor-widget elementor-widget-heading"
+4639:                         data-id="5963b2e"
+4640:                         data-element_type="widget"
+4641:                         data-e-type="widget"
+4642:                         data-widget_type="heading.default"
+4643:                       >
+4644:                         <div class="elementor-widget-container">
+4645:                           <h2
+4646:                             class="elementor-heading-title elementor-size-default"
+4647:                           >
+4648:                             Wishes
+4649:                           </h2>
+4650:                         </div>
+

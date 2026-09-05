@@ -1,0 +1,28 @@
+import json
+
+path = r'C:\Users\user\.gemini\antigravity-ide\brain\97b8e657-67e8-4e82-86cb-7e986d97107f\.system_generated\logs\transcript_full.jsonl'
+
+found_snippets = []
+with open(path, 'r', encoding='utf-8', errors='ignore') as f:
+    for idx, line in enumerate(f):
+        if 'bca.png' in line or '12311122' in line or '98722211' in line or 'btn_gift' in line:
+            # find JSON line
+            try:
+                data = json.loads(line)
+                content = data.get('content', '')
+                if 'bca.png' in content or 'sec_gift' in content:
+                    found_snippets.append(content)
+                tc_list = data.get('tool_calls', [])
+                for tc in tc_list:
+                    args = tc.get('args', {})
+                    for k, v in args.items():
+                        if isinstance(v, str) and ('bca.png' in v or 'sec_gift' in v):
+                            found_snippets.append(v)
+            except Exception:
+                pass
+
+print("Found snippets:", len(found_snippets))
+for i, snip in enumerate(found_snippets):
+    print(f"Snippet {i} len {len(snip)}")
+    with open(f"real_gift_snip_{i}.txt", "w", encoding="utf-8") as out:
+        out.write(snip)

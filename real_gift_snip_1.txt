@@ -1,0 +1,110 @@
+Created At: 2026-09-05T09:01:25+07:00
+Completed At: 2026-09-05T09:12:07+07:00
+
+				The command exited with code 0.
+				Output:
+				<truncated 1 lines>
+L116: "@id": "https://the.invisimple.id/wp-content/uploads/2026/01/preview-m03-reseller.jpg"
+L122: "@id": "https://invitimo2.my.id/author/1nv1t4j4/",
+L124: "url": "https://invitimo2.my.id/author/1nv1t4j4/",
+L132: "sameAs": ["http://invisimple.id"]
+L141: "@id": "https://invitimo2.my.id/author/1nv1t4j4/",
+L144: "publisher": { "@id": "https://invitimo2.my.id/#person" },
+L147: "@id": "https://invitimo2.my.id/m03/#richSnippet",
+L148: "isPartOf": { "@id": "https://invitimo2.my.id/m03/#webpage" },
+L150: "@id": "https://the.invisimple.id/wp-content/uploads/2026/01/preview-m03-reseller.jpg"
+L154: "@id": "https://invitimo2.my.id/m03/#webpage"
+L160: <link rel="dns-prefetch" href="//the.invisimple.id" />
+L1887: ajax_url: "https://invitimo2.my.id/wp-admin/admin-ajax.php",
+L1891: "https://the.invisimple.id/wp-content/plugins/advanced-accordion-block/assets/",
+L1986: href="../wp-content/uploads/jet-form-builder/4a5dabbb0367e947760bbfd565f04031/2025/09/INVITIMO.jpeg"
+L1991: href="../wp-content/uploads/jet-form-builder/4a5dabbb0367e947760bbfd565f04031/2025/09/INVITIMO.jpeg"
+L1996: href="../wp-content/uploads/jet-form-builder/4a5dabbb0367e947760bbfd565f04031/2025/09/INVITIMO.jpeg"
+L2000: content="https://the.invisimple.id/wp-content/uploads/jet-form-builder/4a5dabbb0367e947760bbfd565f04031/2025/09/INVITIMO.jpeg"
+L2193: data-settings='{"jet_parallax_layout_list":[],"background_background":"slideshow","background_slideshow_ken_burns":"yes","background_slideshow_gallery":[{"id":7
+L2331: data-dce-background-image-url="https://the.invisimple.id/wp-content/uploads/jet-form-builder/291ebc13dd6538bae3ec7959b8d770dc/2024/10/img-sample-01-1-3.jpeg"
+L2361: Putri &amp; Andika
+L2463: data-settings='{"background_background":"video","background_video_link":"https:\/\/the.invisimple.id\/wp-content\/uploads\/2025\/10\/03.-MANSION-GARDEN-15S.mp4"
+L2556: Putri<br /><span
+L2564: ><br />Andika
+L2585: Minggu, 28 Desember 2027
+L2641: data-dce-background-overlay-image-url="https://the.invisimple.id/wp-content/uploads/2024/10/Garden-03-Ayat.jpg"
+L2704: data-settings='{"background_background":"slideshow","background_slideshow_slide_duration":1000,"background_slideshow_transition_duration":3000,"background_slide
+L2929: Bride &amp; Groom
+L3068: data-settings='{"background_background":"slideshow","background_slideshow_slide_duration":1000,"background_slideshow_transition_duration":3000,"background_slide
+L3113: Putri
+L3129: Putri Cantika Sari
+L3146: Putri Pertama dari
+L3294: data-settings='{"background_background":"slideshow","background_slideshow_slide_duration":1000,"background_slideshow_transition_duration":3000,"background_slide
+L3340: Andika
+L3356: Putra Andika Pratama
+L3469: data-settings='{"background_background":"slideshow","background_slideshow_slide_duration":1000,"background_slideshow_transition_duration":3000,"background_slide
+L3563: href="https://www.google.com/calendar/render?action=TEMPLATE&text=Tema%203D%20Motion%2003&details=The%20Wedding%20Of%20%3A%3Cbr%3E%3Cbr%3EPutri%20Cantika%20Sari
+L3693: data-dce-background-image-url="https://the.invisimple.id/wp-content/uploads/2024/10/Garden-03-Overlay.jpg"
+L3772: Minggu
+L3897: href="https://maps.app.goo.gl/TsZCeupoF4p6bksT6"
+L3914: >Google Maps</span
+L3942: data-dce-background-image-url="https://the.invisimple.id/wp-content/uploads/2024/10/Garden-03-Overlay.jpg"
+L4021: Minggu
+L4146: href="https://maps.app.goo.gl/TsZCeupoF4p6bksT6"
+L4163: >Google Maps</span
+L5039: data-thumbnail="https://the.invisimple.id/wp-content/uploads/jet-form-builder/e6fb52c108655e3dbb47bfeccce12131/2024/10/img-sample-01-2.jpeg"
+L5057: data-thumbnail="https://the.invisimple.id/wp-content/uploads/jet-form-builder/e6fb52c108655e3dbb47bfeccce12131/2024/10/img-sample-01-12.jpeg"
+L5075: data-thumbnail="https://the.invisimple.id/wp-content/uploads/jet-form-builder/e6fb52c108655e3dbb47bfeccce12131/2024/10/img-sample-01-3.jpeg"
+L5093: data-thumbnail="https://the.invisimple.id/wp-content/uploads/jet-form-builder/e6fb52c108655e3dbb47bfeccce12131/2024/10/img-sample-01-4.jpeg"
+L5111: data-thumbnail="https://the.invisimple.id/wp-content/uploads/jet-form-builder/e6fb52c108655e3dbb47bfeccce12131/2024/10/img-sample-01-7.jpeg"
+L5129: data-thumbnail="https://the.invisimple.id/wp-content/uploads/jet-form-builder/e6fb52c108655e3dbb47bfeccce12131/2024/10/img-sample-01-10.jpeg"
+L5147: data-thumbnail="https://the.invisimple.id/wp-content/uploads/jet-form-builder/e6fb52c108655e3dbb47bfeccce12131/2024/10/img-sample-01-8.jpeg"
+L5165: data-thumbnail="https://the.invisimple.id/wp-content/uploads/jet-form-builder/e6fb52c108655e3dbb47bfeccce12131/2024/10/img-sample-01-9.jpeg"
+L5301: data-dce-background-image-url="https://the.invisimple.id/wp-content/uploads/2024/10/bg-card-03.jpg"
+L5348: src="../wp-content/uploads/2024/10/bca.png"
+L5352: ../wp-content/uploads/2024/10/bca.png        153w,
+L5353: ../wp-content/uploads/2024/10/bca-150x50.png 150w
+L5373: No Rekening
+L5427: Putri Cantika Sari
+L5524: data-dce-background-image-url="https://the.invisimple.id/wp-content/uploads/2024/10/bg-card-03.jpg"
+L5571: src="../wp-content/uploads/2024/10/bri.png"
+L5575: ../wp-content/uploads/2024/10/bri.png        153w,
+L5576: ../wp-content/uploads/2024/10/bri-150x50.png 150w
+L5596: No Rekening
+L5650: Putra Andika Pratama
+L5747: data-dce-background-image-url="https://the.invisimple.id/wp-content/uploads/2024/10/bg-card-03.jpg"
+L5794: src="../wp-content/uploads/2024/10/bni.png"
+L5798: ../wp-content/uploads/2024/10/bni.png        153w,
+L5799: ../wp-content/uploads/2024/10/bni-150x50.png 150w
+L5819: No Rekening
+L5873: Putra Andika Pratama
+L5970: data-dce-background-image-url="https://the.invisimple.id/wp-content/uploads/2024/10/bg-card-03.jpg"
+L6052: Putri / Putra
+L6670: data-settings='{"background_background":"slideshow","background_slideshow_slide_duration":1000,"background_slideshow_transition_duration":3000,"background_slide
+L6762: Putri &amp; Andika
+L6856: src="../wp-content/uploads/2025/06/INVITIMO.png"
+L6876: INVITIMO
+L6900: href="https://www.instagram.com/invitimo.id/"
+L6940: href="https://www.tiktok.com/@invitimo.id/"
+L7308: icon-audio-invisimple
+L8800: data-dce-background-image-url="https://the.invisimple.id/wp-content/uploads/2024/10/Garden-03-Ayat.jpg"
+L8835: Putri &amp; Andika
+L8850: Minggu, 28 Desember 2027
+L8869: data-settings='{"jet_parallax_layout_list":[],"background_background":"video","background_video_link":"https:\/\/the.invisimple.id\/wp-content\/uploads\/2024\/1
+L9021: data-settings='{"jet_parallax_layout_list":[],"background_background":"slideshow","background_slideshow_gallery":[{"id":8136,"url":"https:\/\/the.invisimple.id\
+L9083: Putri &amp; Andika
+L10034: ajaxurl: "https://invitimo2.my.id/wp-admin/admin-ajax.php",
+L10054: src="../wp-content/litespeed/js/36e583e8dbcac012cc81f8c35750f45a.js?ver=0f45a"
+L10196: "https:\/\/the.invisimple.id\/wp-content\/plugins\/elementor\/assets\/",
+L10197: ajaxurl: "https:\/\/invitimo2.my.id\/wp-admin\/admin-ajax.php",
+L10198: uploadUrl: "https:\/\/the.invisimple.id\/wp-content\/uploads",
+L10223: "https:\/\/the.invisimple.id\/wp-content\/uploads\/2026\/01\/preview-m03-reseller.jpg",
+L10244: ajaxUrl: "https://invitimo2.my.id/wp-admin/admin-ajax.php",
+L10247: "https://invitimo2.my.id/wp-json/jet-elements-api/v1/elementor-template",
+L10305: ajax_url: "https://invitimo2.my.id/wp-admin/admin-ajax.php",
+L10308: "https://the.invisimple.id/wp-content/plugins/happy-elementor-addons/assets/vendor/pdfjs/lib",
+L10324: ajaxUrl: "https://invitimo2.my.id/wp-admin/admin-ajax.php",
+L10370: ajaxurl: "https:\/\/invitimo2.my.id\/wp-admin\/admin-ajax.php",
+L10374: "https:\/\/the.invisimple.id\/wp-content\/plugins\/elementor-pro\/assets\/",
+L10375: rest: "https:\/\/invitimo2.my.id\/wp-json\/",
+L10404: "https:\/\/the.invisimple.id\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json",
+L10579: "wpemoji": "https://invitimo2.my.id/wp-includes/js/wp-emoji.js?ver=7.0.4",
+L10580: "twemoji": "https://invitimo2.my.id/wp-includes/js/twemoji.js?ver=7.0.4"
+L11043: //# sourceURL=https://invitimo2.my.id/wp-includes/js/wp-emoji-loader.js
+
