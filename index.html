@@ -4653,6 +4653,7 @@
                         data-element_type="widget"
                         data-e-type="widget"
                         id="btn_gift"
+                        style="display: none;"
                         data-widget_type="button.default"
                       >
                         <div class="elementor-widget-container">
@@ -4682,7 +4683,7 @@
                         data-element_type="section"
                         data-e-type="section"
                         id="sec_gift"
-                        style="display: none;"
+                        style="display: block;"
                         data-settings='{"jet_parallax_layout_list":[]}'
                       >
                         <div
@@ -5396,24 +5397,8 @@
                           <script>
                             var btn_gift = document.getElementById("btn_gift");
                             var sec_gift = document.getElementById("sec_gift");
-                            btn_gift.onclick = function () {
-                              if (sec_gift.style.display === "block") {
-                                $("#sec_gift").slideUp(1500, "easeInOutCubic");
-                              } else {
-                                $("#sec_gift").slideDown(
-                                  1500,
-                                  "easeInOutCubic",
-                                );
-                                $("#btn_gift").animate(
-                                  { opacity: 0 },
-                                  1000,
-                                  "easeInOutCirc",
-                                );
-                                window.setTimeout(function () {
-                                  btn_gift.style.display = "none";
-                                }, 2000);
-                              }
-                            };
+                            if (btn_gift) btn_gift.style.display = "none";
+                            if (sec_gift) sec_gift.style.display = "block";
                           </script>
                         </div>
                       </div>
