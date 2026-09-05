@@ -2579,7 +2579,6 @@
                     >
                       <div class="elementor-background-overlay"></div>
                       <section
-                        id="couple-section-target"
                         class="elementor-section elementor-inner-section elementor-element elementor-element-5f8f911 elementor-section-full_width elementor-section-height-min-height elementor-section-content-middle motionSection elementor-section-height-default"
                         data-id="5f8f911"
                         data-element_type="section"
@@ -2611,6 +2610,7 @@
                               class="elementor-widget-wrap elementor-element-populated"
                             >
                               <section
+                                id="couple-section-target"
                                 class="elementor-section elementor-inner-section elementor-element elementor-element-01fb214 elementor-section-full_width elementor-section-content-top elementor-section-height-default elementor-section-height-default"
                                 data-id="01fb214"
                                 data-element_type="section"
@@ -8057,7 +8057,7 @@
 
                               // Anchor scroll to main section top
                               setTimeout(function () {
-                                var target = document.getElementById("couple-section-target") || document.querySelector(".elementor-element-5f8f911");
+                                var target = document.getElementById("couple-section-target") || document.querySelector(".elementor-element-01fb214");
                                 if (target) {
                                   target.scrollIntoView({ behavior: "smooth", block: "start" });
                                 }
