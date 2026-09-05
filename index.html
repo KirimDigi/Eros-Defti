@@ -8055,12 +8055,9 @@
 
                               closeCover();
 
-                              // Anchor scroll to main section top
+                              // Scroll to top of invitation
                               setTimeout(function () {
-                                var target = document.getElementById("couple-section-target") || document.querySelector(".elementor-element-01fb214");
-                                if (target) {
-                                  target.scrollIntoView({ behavior: "smooth", block: "start" });
-                                }
+                                window.scrollTo({ top: 0, behavior: "smooth" });
                               }, 350);
 
                               // Play background motion video once starting from 0 (no loop)
@@ -8074,13 +8071,13 @@
                                 });
                               }, 200);
 
-                              // Reveal text and frame after 8 seconds
+                              // Reveal text and frame after 10 seconds
                               setTimeout(function () {
                                 var delayedBoxes = document.querySelectorAll(".delayed-appear-box");
                                 delayedBoxes.forEach(function (box) {
                                   box.classList.add("is-visible");
                                 });
-                              }, 8000);
+                              }, 10000);
                             }
 
                             disableScrolling();
